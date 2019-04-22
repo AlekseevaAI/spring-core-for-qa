@@ -3,11 +3,7 @@ package com.acme.banking.dbo.ooad;
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class AccountRepository {
-
-    public void AccountRepository(){
-
-    }
+public class AccountRepositoryStub {
 
     public Collection<Account> getAllAccounts(){
 

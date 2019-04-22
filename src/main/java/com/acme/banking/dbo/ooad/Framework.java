@@ -6,7 +6,7 @@ public class Framework {
     public static void main(String[] args) {
         ReportingService reportingService = new ReportingService(
                 new NostalgieXchanheService(30),
-                new AccountRepository()
+                new AccountRepositoryStub()
         );
 
         Collection<Account> accounts = reportingService.getAllAccountInUsd();

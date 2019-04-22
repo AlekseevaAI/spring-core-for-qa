@@ -3,10 +3,10 @@ package com.acme.banking.dbo.ooad;
 import java.util.Collection;
 
 public class ReportingService {
-    private AccountRepository repository;
+    private AccountRepositoryStub repository;
     private XchangeService xchangeService;
 
-    public ReportingService(XchangeService xchangeService, AccountRepository repository){
+    public ReportingService(XchangeService xchangeService, AccountRepositoryStub repository){
         this.repository = repository;
         this.xchangeService = xchangeService;
     }
